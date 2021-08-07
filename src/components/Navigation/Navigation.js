@@ -18,7 +18,7 @@ export default function Navigation() {
         Home
       </NavLink>
 
-      {isAuth && (
+      {isLoggedIn && (
         <NavLink
           className="nav__link"
           exact

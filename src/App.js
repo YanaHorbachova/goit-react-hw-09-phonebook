@@ -34,7 +34,7 @@ export default function App() {
     dispatch(authOperations.getCurrentUser());
   }, [dispatch]);
 
-  render() {
+
     return (
       <div className="container">
         <AppBar />

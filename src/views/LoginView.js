@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useDispatch } from 'react-redux';
-import { authOperations } from "../redux/auth";
-import "../components/ContactForm/ContactForm.css";
+import { authOperations } from '../redux/auth';
+import '../components/ContactForm/ContactForm.css';
 
 export default function LoginView() {
   const dispatch = useDispatch();
@@ -35,8 +35,8 @@ export default function LoginView() {
               <input
                 className="input"
                 type="email"
-                value={this.state.email}
-                onChange={this.handleChange}
+                value={user.email}
+                onChange={handleChange}
                 name="email"
               />
             </label>
