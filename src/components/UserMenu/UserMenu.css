@@ -1,0 +1,16 @@
+.usermenu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 250px;
+}
+.usermenu-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.usermenu-text {
+  display: inline-block;
+  margin-left: 5px;
+}
