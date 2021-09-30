@@ -46,7 +46,7 @@ export default function ContactForm() {
             required
           />
         </label>
-        <label className="form-label" htmlFor={this.phoneInputId}>
+        <label className="form-label" htmlFor={phoneInputId}>
           <span className="form-label-title">Number</span>
           <input
             className="input"
